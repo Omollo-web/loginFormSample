@@ -1,0 +1,110 @@
+form{
+    width: 500px;
+    height: 80vh;
+    background: linear-gradient(35deg, #403234, #ece2ce, #403234);
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    text-align: center;
+}
+
+.img{
+    padding-top: 20px;
+}
+.img img{
+    height: 30vh;
+    border: 1px solid transparent;
+    border-radius: 200px;
+    margin: 5px;
+}
+
+.container{
+    padding: 10px 10px;
+}
+
+input[type=text], [type=password]{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;     
+    resize: vertical;
+}
+
+.label{
+    font-size: 1rem;
+    color: #403234;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+button{
+    margin: 15px;
+    background: #403234;
+    color: #ece2ce;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 11px 0;
+    border: none;
+    width: 100%;
+}
+
+button:hover{
+    background:  linear-gradient(35deg, #403234, #ece2ce, #403234);;
+    color: #403234;
+}
+
+.cancelbtn {
+  width: auto;
+  background-color: #403234;
+  float: left;
+  margin-bottom: 1000px;
+  font-weight: 600;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+span a{
+    color: #403234;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.box{
+    float: left;
+}
+
+@media screen and (max-width: 1024px) {
+    form{
+        height: 80vh;
+    }
+    .label{
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    form{
+        width: 400px;
+        height: 90vh;
+    }
+    .label{
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    form{
+        width: 300px;
+        height: 90vh;
+    }
+    .label{
+        margin-left: 5px;
+    }
+}
+
